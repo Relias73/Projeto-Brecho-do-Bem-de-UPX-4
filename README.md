@@ -31,6 +31,9 @@ O framework Spring, disponível em https://start.spring.io/, é um frame de cód
 A arquitetura aplicada é do modelo padrão MVC (Model – View – Controller), a fim de buscar a qualidade do código, reduzir erros e aumentar a eficiência do desenvolvimento. Resumidamente, após um chamado externo, as APIs interagem com o Controlador, que por sua vez interage com o Serviço. O serviço chama o Repositório que interage com o Banco de Dados. 
 Esta arquitetura padrão tornar a base de código sustentável, escalável e de manutenção acessível a longo prazo. 
 
+DIAGRAMA DA ARQUITETURA DO REST APIS: ![image](https://github.com/Relias73/Brecho-do-Bem/assets/105240567/22082bb6-59e7-42a2-81c3-a4259b710dd5)
+
+
 6. Interface com o Banco de Dados
 A interface entre o código back end e o banco de dados é uma parte crítica da aplicação. Garantiu-se que essa conexão seja confiável e segura, permitindo que a aplicação acesse e gerencie informações de forma eficaz. Essa é uma garantia da integridade e do desempenho da aplicação.
 
@@ -46,6 +49,9 @@ Serviço é a parte da arquitetura em que o repositório é instanciado e a lóg
 6.4.	Controlador
 O controlador é a parte da arquitetura onde as solicitações dos clientes são tratadas pela primeira vez. Controla os processos que devem ser executados no back end e a resposta que deve ser entregue aos clientes. Ele interage com o serviço que, por sua vez, interage com o repositório que, por sua vez, interage com o banco de dados usando modelos.
 
+Como se movem os dados em sua jornada entre o cliente e o BD:
+
+![image](https://github.com/Relias73/Brecho-do-Bem/assets/105240567/11a9822d-352b-4f7b-8d51-6e98823e416a)
 
 
 
